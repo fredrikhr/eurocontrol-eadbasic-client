@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "..root", "..root", "{A6CC552C-ABFA-4398-99AA-60D6916DF6BA}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		Directory.Build.props = Directory.Build.props
+		Directory.Build.targets = Directory.Build.targets
+		LICENSE = LICENSE
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cli", "cli", "{647FEF8F-08BE-46EF-9B48-F21FA6865B15}"
+	ProjectSection(SolutionItems) = preProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FredrikHr.EurocontrolEadBasic.Cli", "cli\FredrikHr.EurocontrolEadBasic.Cli\FredrikHr.EurocontrolEadBasic.Cli.csproj", "{7843AE37-D8FF-40CA-916A-29C2B362D7F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{369CF283-688A-4D27-9C4F-9EB10D1B6C43}"
+	ProjectSection(SolutionItems) = preProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FredrikHr.EurocontrolEadBasic", "lib\FredrikHr.EurocontrolEadBasic\FredrikHr.EurocontrolEadBasic.csproj", "{1055FC50-AD7D-4C3D-BCF0-C7470C5416E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{F8E47F17-CA5A-415C-A0CE-639531C8B727}"
+	ProjectSection(SolutionItems) = preProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7843AE37-D8FF-40CA-916A-29C2B362D7F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7843AE37-D8FF-40CA-916A-29C2B362D7F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7843AE37-D8FF-40CA-916A-29C2B362D7F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7843AE37-D8FF-40CA-916A-29C2B362D7F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1055FC50-AD7D-4C3D-BCF0-C7470C5416E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1055FC50-AD7D-4C3D-BCF0-C7470C5416E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1055FC50-AD7D-4C3D-BCF0-C7470C5416E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1055FC50-AD7D-4C3D-BCF0-C7470C5416E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7843AE37-D8FF-40CA-916A-29C2B362D7F2} = {647FEF8F-08BE-46EF-9B48-F21FA6865B15}
+		{1055FC50-AD7D-4C3D-BCF0-C7470C5416E4} = {369CF283-688A-4D27-9C4F-9EB10D1B6C43}
+	EndGlobalSection
+EndGlobal
